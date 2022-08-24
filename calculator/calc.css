@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(48, 221, 221);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.title{
+    text-align: center;
+}
+
+.calculator-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: 5px solid black;
+    margin: auto;
+    width: 350px;
+    height: 500px;
+    background-color: orange;
+    box-shadow: rgba(255, 166, 0, 0.603) 10px 10px 10px;
+}
+
+.screen {
+    display: flex;
+    justify-content: flex-end;
+    border: 5px solid black;
+    height: 100px;
+    width: auto;
+    background-color: rgb(154, 148, 148);
+    font-size: xx-large;
+    /* display current operator on top */
+}
+.operators{
+    margin: 10px;
+    height: 100px;
+    width: auto;
+
+}
+.numbers{
+    height: 250px;
+    width: auto; 
+    margin-left: 35px;
+}
+
+.op{
+    margin: 10px;
+    background-color: slategray;
+    font-size: large;
+    box-shadow: 0px 0px 1px 1px rgb(0, 0, 0)
+}
+
+.op:hover{
+    font-weight: bold;
+}
+
+.op:active{
+    font-style: italic;
+    font-size: xx-large;
+    transition: .2s;
+}
+
+.num{
+    margin: 5px;
+    background-color: rgb(148, 205, 90);
+    font-size: x-large;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 1px 1px rgb(0, 0, 0)
+}
+.num:hover{
+    font-weight: bold;
+}
+.num:active{
+    font-style: italic;
+    font-weight: bolder;
+}
